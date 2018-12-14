@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.phone {
+  padding-top: 70px;
+  height: 650px;
+  float: left;
+  margin: 10px;
+}
+.body {
+  background-color: #FAFAFA;
+}
+.container {
+  margin-top: 20px;
+}
+.right-column {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  width: 350px;
+  margin: 10px;
+  padding: 40px;
+}
+.instagramlogo {
+  margin: 15px right;
+  justify-content: left;
+}
+.info {
+  font-weight: 600px;
+  line-height: 20px;
+  font-size: 17px;
+  color: #999;
+}
+.button {
+  height: 18px;
+  padding: 0px 8px 2px;
+
+}
+.or {
+  font-size: 13px;
+  color: #999;
+  font-weight: 600;
+}
+.or ::before {
+  content: #efefef;
+  display: block;
+  height: 2px;
+  width: 110px;
+  position: relative;
+  top: 11px;
+}
+.or ::after {
+  content: #efefef;
+  display: block;
+  height: 2px;
+  width: 110px;
+  position: relative;
+  bottom: 10px;
+  left: 160px;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.form-control {
+  background: #FAFAFA ;
+  border: 1px solid;
+  font-size: 12px;
+}
+::placeholder {
+  color: #999;
+}
+.btn {
+  margin: 12px auto;
+  padding: 2px ;
+  font-weight: 600;
+}
+.btnprimary {
+  background-color: #3897f0;
+  border: 1px solid #3897f0;
+}
+.terms {
+  line-height: 18px;
+  font-size: 14px;
+  color: #999;
+  margin: 5px 20px;
+}
+.right-column-Login {
+  background: #fff;
+  border: 1 px soild #e6e6e6;
+  width: 350px;
+  margin: 10px;
+  padding: 20px;
+}
+.right-column-Login a:hover {
+  text-decoration: none;
+}
+.right-column-Login {
+  background: #fff;
+  border: 1 px soild #e6e6e6;
+  width: 350px;
+  margin: 10px;
+  padding: 20px;
+}
+@media (max-width: 800px) {
+  .phone {
+    display: none;
+  }
+}
+.right-column-text-center{
+  float: left;
+  justify-content: space-around;
+}
+.right-section {
+  text-align: justify;
+}
+.right-column-text-center {
+  justify-content: right;
+}
+.btn-btn-primary {
+  justify-content: center;
+}
+.app-image {
+  justify-content: flex-end;
+}
