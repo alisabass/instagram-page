@@ -36,13 +36,16 @@
   padding: 0px 8px 2px;
 
 }
+#Button-text {
+  color: white;
+}
 .or {
   font-size: 13px;
   color: #999;
   font-weight: 600;
 }
 .or ::before {
-  content: #efefef;
+  content: '';
   display: block;
   height: 2px;
   width: 110px;
@@ -50,7 +53,7 @@
   top: 11px;
 }
 .or ::after {
-  content: #efefef;
+  content: '';
   display: block;
   height: 2px;
   width: 110px;
@@ -96,7 +99,7 @@
 }
 .right-column-Login {
   background: #fff;
-  border: 1 px soild #e6e6e6;
+  border: 1px soild #e6e6e6;
   width: 350px;
   margin: 10px;
   padding: 20px;
@@ -112,6 +115,7 @@
 }
 .right-section {
   text-align: justify;
+
 }
 .right-column-text-center {
   justify-content: right;
@@ -121,4 +125,14 @@
 }
 .app-image {
   justify-content: flex-end;
+}
+.nav {-webkit-flex-grow: 1;
+-ms-flex-positive: 1;
+flex-grow: 1;
+margin-bottom: 3px;
+}
+#below {
+  justify-content: center;
+  float: left;
+  margin-left: 20%;
 }
